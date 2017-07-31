@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private RecyclerView rvImage;
     private ImageAdapter mAdapter;
-    private TextView textView1;
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
