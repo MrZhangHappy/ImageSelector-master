@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.donkingliang.imageselectdemo.adapter.ImageAdapter;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private RecyclerView rvImage;
     private ImageAdapter mAdapter;
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
